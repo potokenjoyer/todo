@@ -11,6 +11,7 @@ const todoStore = useTodoStore();
 
 <style scoped>
 button {
+  height: 50px;
   position: relative;
   display: inline-block;
   margin: 15px;

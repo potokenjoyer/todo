@@ -2,6 +2,10 @@
   <header class="header">
     <div class="containter">
       <div class="logo">ToDo List</div>
+      <!-- <nav class="nav-container">
+        <div class="logo">Taksts</div>
+        <div class="logo">archive</div>
+      </nav> -->
     </div>
   </header>
 </template>
@@ -13,10 +17,13 @@ import Btn from "./Btn.vue";
 </script>
 
 <style scoped>
+.nav-container{
+  display: flex;
+}
 .header {
   width: 100%;
   max-width: 15 00px;
-  background-color: rgb(239, 240, 245);
+  background-color: rgb(221,222,227);
   color: white;
   padding: 1rem 0;
   margin: 0 auto;
